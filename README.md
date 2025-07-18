@@ -1,2 +1,22 @@
-# Speech-to-Text-using-Python-Libraries
-This project is a simple Speech-to-Text converter that uses the speech_recognition Python library to transcribe spoken content from .wav audio files into text. The tool leverages Google Web Speech API to perform the transcription and is suitable for basic voice-to-text conversion tasks.
+# 🎙️ Speech to Text Converter
+
+This is a lightweight Python script that converts speech from a WAV audio file into text using the `speech_recognition` library and Google’s Web Speech API.
+
+## 🧠 Features
+
+- Supports transcription from `.wav` files
+- Uses Google's Web Speech API
+- Automatic ambient noise adjustment
+- Simple CLI interface for input
+
+## 🛠️ Requirements
+
+- Python 3.x
+- `speechrecognition` library
+
+## 🔧 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/speech-to-text.git
+   cd speech-to-text
